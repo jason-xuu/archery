@@ -1,0 +1,192 @@
+main h1 {
+  text-align: center; /* Center align the text */
+  font-weight: bold; /* Make the text bold */
+  font-family: Arial, sans-serif; /* Set the font family to Arial */
+  font-size: 2em;
+}
+
+main {
+	
+}
+
+.centered-text {
+  text-align: center; /* Center align the text */
+  font-family: Arial, sans-serif; /* Set the font family to Arial */
+  font-size: 1.5em;
+}
+
+.content-box {
+  background-color: #1b447f; /* Set background color */
+  color: white; /* Set text color to white for better readability */
+  padding: 20px; /* Add padding inside the rectangle */
+  width: 50%; /* Set the width to occupy half of the page's width */
+  float: left; /* Float the rectangle to the left */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  border-radius: 10px;
+  font-family: Arial, sans-serif; /* Set the font family to Arial */
+
+}
+
+.right-content {
+  float: right; /* Float the rectangle to the right */
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  background-color: #03a3df;
+  padding: 20px 10px; /* Expand vertically and keep horizontal padding */
+  border-radius: 10px;
+  font-family: Arial, sans-serif; /* Change font to Arial */
+}
+
+.logo-container img {
+  display: block;
+  margin-bottom: 10px; /* Add space between the image and links */
+}
+
+.logo-container nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-container nav ul li {
+  margin-right: 20px; /* Add space between links */
+}
+
+.logo-container nav ul li:last-child {
+  margin-right: 0; /* Remove margin from last link */
+}
+
+.logo-container nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+footer {
+  position: relative;
+  overflow: hidden;
+  padding: 20px 0;
+  border-radius: 10px; /* Apply rounded corners */
+  font-family: Arial, sans-serif; /* Change font to Arial */
+}
+
+/* Footer content */
+.footer-content {
+  text-align: center; /* Center-align the text */
+  color: white; /* Set text color to white */
+  font-family: Arial, sans-serif; /* Change font to Arial */
+}
+
+.footer-content p {
+  margin-bottom: 10px; /* Add bottom margin to separate paragraphs */
+}
+
+footer nav {
+  position: relative; /* Ensure the navigation is on top of the image */
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Align the links in the center */
+}
+
+footer nav ul li {
+  display: inline-block; /* Display links horizontally */
+  margin-right: 20px; /* Add space between links */
+}
+
+footer nav ul li:last-child {
+  margin-right: 0; /* Remove margin from last link */
+}
+
+footer nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif; /* Use Arial font */
+}
+
+.content-box h2,
+.right-content h2,
+.right-content video {
+  text-align: center; /* Center align the content */
+  margin: 0 auto; /* Center horizontally */
+  display: block; /* Ensure block-level display for proper centering */
+}
+
+.policy {
+  margin-top: 40px; /* Add some space at the top */
+  text-align: center; /* Center align the content */
+  width: 100%; /* Set the width to 100% to ensure it spans the full width */
+  font-family: Arial, sans-serif; /* Set the font family to Arial */
+}
+
+.policy h2 {
+  font-family: Arial, sans-serif; /* Set the font family to Arial */
+  color: black; /* Set text color to black */
+  font-size: 2em;
+}
+
+/* Centering and styling headings */
+section {
+  text-align: center;
+}
+
+.blue-box {
+  background-color: #03a3df; /* Blue background color */
+  padding: 10px; /* Add padding for space around the text */
+  display: inline-block; /* Ensure the box size fits the content */
+  border-radius: 10px; /* Apply rounded corners */
+}
+
+.blue-box h3 {
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.class h3 {
+  font-family: Arial, sans-serif; /* Set font family to Arial */
+}
+.class p {
+  font-family: Arial, sans-serif; /* Set font family to Arial */
+}
+
+.class h2,
+.class h3,
+.class p,
+.private-lessons h2,
+.private-lessons h3,
+.private-lessons p {
+  font-family: Arial, sans-serif; /* Set font family to Arial */
+}
+
+.classes-header {
+  font-family: Arial, sans-serif; /* Set font family to Arial */
+}
+
+.dark-blue-box {
+  background-color: #1b447f; /* Blue background color */
+  padding: 10px; /* Add padding for space around the text */
+  display: inline-block; /* Ensure the box size fits the content */
+  border-radius: 10px; /* Apply rounded corners */
+}
+
+.dark-blue-box h2 {
+  font-family: Arial, sans-serif;
+  color: white;
+}

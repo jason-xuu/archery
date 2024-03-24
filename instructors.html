@@ -4,20 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Instructors - Straight to the Point Archery</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <style>
+    /* Apply Arial font to all text */
+    body, h1, h2, h3, p, nav ul li a {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Style for dark blue boxes */
+    .dark-blue-box {
+      background-color: #1b447f; /* Dark blue color */
+      color: white; /* White text color */
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center; /* Center align text */
+      margin-bottom: 10px; /* Add space between boxes */
+    }
+
+    /* Center images */
+    img {
+      display: block;
+      margin: 0 auto; /* Center align */
+    }
+  </style>
 </head>
 <body>
   <header>
-    <img src="archeryAcademy-logo-color.png" alt="Archery Academy Logo">
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="programs.html">Programs</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="instructors.html">Instructors</a></li>
-      </ul>
-    </nav>
+    <div class="logo-container">
+      <img src="archeryAcademy-logo-white.png" alt="Archery Academy Logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="instructors.html">Instructors</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
@@ -26,17 +50,23 @@
       <h2>Qualifications</h2>
       <p>All instructors are Level 3 certified.</p>
       <div>
+	  <div class="dark-blue-box">
         <h2>Derek Jenkins</h2>
+	  </div>
         <img src="instructor-bio-image1.png" alt="Derek Jenkins">
         <p>Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting, and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows, and making custom leather products.</p>
       </div>
       <div>
+	  <div class="dark-blue-box">
         <h2>Amy Smith</h2>
+	  </div>
         <img src="instructor-bio-image2.png" alt="Amy Smith">
         <p>Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness and has been a YMCA group exercise and personal trainer for over 18 years.</p>
       </div>
       <div>
+	  <div class="dark-blue-box">
         <h2>Nathan Lee</h2>
+	  </div>
         <img src="instructor-bio-image3.png" alt="Nathan Lee">
         <p>Nathan is a USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
       </div>
@@ -44,17 +74,19 @@
   </main>
 
   <footer>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="programs.html">Programs</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="instructors.html">Instructors</a></li>
-      </ul>
-    </nav>
-    <p>&copy; 2018 Archery Academy | Seattle, WA</p>
-    <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+    <div class="footer-content">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="instructors.html">Instructors</a></li>
+        </ul>
+      </nav>
+      <p>&copy; 2018 Archery Academy | Seattle, WA</p>
+      <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+    </div>
     <img src="footerImage.jpg" alt="Footer Image">
   </footer>
 
